@@ -1,0 +1,57 @@
+[
+  {
+    "event_type": "NO_HELMET",
+    "severity": "HIGH",
+    "confidence": 0.91,
+    "camera_id": "CAM-01",
+    "worker_id": "W-03",
+    "zone_id": "ZONE-A",
+    "timestamp": "2026-08-28T09:00:00",
+    "snapshot_path": null,
+    "status": "OPEN"
+  },
+  {
+    "event_type": "RESTRICTED_ENTRY",
+    "severity": "CRITICAL",
+    "confidence": 0.88,
+    "camera_id": "CAM-02",
+    "worker_id": "W-07",
+    "zone_id": "ZONE-B",
+    "timestamp": "2026-08-28T09:01:30",
+    "snapshot_path": null,
+    "status": "OPEN"
+  },
+  {
+    "event_type": "NO_VEST",
+    "severity": "MEDIUM",
+    "confidence": 0.82,
+    "camera_id": "CAM-01",
+    "worker_id": "W-11",
+    "zone_id": "ZONE-A",
+    "timestamp": "2026-08-28T09:03:00",
+    "snapshot_path": null,
+    "status": "ACKNOWLEDGED"
+  },
+  {
+    "event_type": "POSSIBLE_FALL",
+    "severity": "CRITICAL",
+    "confidence": 0.76,
+    "camera_id": "CAM-03",
+    "worker_id": "W-05",
+    "zone_id": "ZONE-C",
+    "timestamp": "2026-08-28T09:05:45",
+    "snapshot_path": null,
+    "status": "RESOLVED"
+  },
+  {
+    "event_type": "MACHINERY_PROXIMITY",
+    "severity": "HIGH",
+    "confidence": 0.84,
+    "camera_id": "CAM-02",
+    "worker_id": "W-09",
+    "zone_id": "ZONE-B",
+    "timestamp": "2026-08-28T09:07:20",
+    "snapshot_path": null,
+    "status": "OPEN"
+  }
+]

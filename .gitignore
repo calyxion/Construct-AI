@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging / build output
+build/
+dist/
+dist-ssr/
+*.egg-info/
+
+# Unit test / coverage
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Environments & Secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+*.pem
+*.key
+*.keystore
+*.jks
+
+# Node / Web dependencies & logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.local
+
+# IDEs & Editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+*.tmp
+
+# Operating Systems
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Machine Learning Weights & Large Binary Models
+*.pt
+*.pth
+*.engine
+*.bin
+*.weights
+*.bundle
+*.zip
+
+# Databases & Local State
+*.db
+*.sqlite3
+constructai.db
+
+# Generated snapshots & temporary output images
+screenshots/snapshots/*
+screenshots/test_*.jpg
+screenshots/test_*.png
+snapshots/*
+
+# Temporary docs / extractions
+*.pdf
+pdf_text.txt
